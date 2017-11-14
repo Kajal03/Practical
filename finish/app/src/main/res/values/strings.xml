@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">finish</string>
+    <string name="finish">FINISH</string>
+    <string name="finish_act">FINISH ACTIVITY</string>
+</resources>

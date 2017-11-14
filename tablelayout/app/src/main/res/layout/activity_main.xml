@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tanujrohilla.tablelayout.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/table"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/ediText1"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/checkBox1"
+            android:layout_column="50" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:layout_column="0" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/checkBox2"
+            android:layout_column="50" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:layout_column="0"/>
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:id="@+id/checkbox3"
+            android:layout_column="50"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textView"
+            android:layout_column="6"
+            />
+    </TableRow>
+
+
+</TableLayout>
